@@ -17,3 +17,4 @@ let mySprite = sprites.create(img`
     4 4 4 4 . . . . . . . . . . . . 
     `, SpriteKind.Player)
 music.play(music.stringPlayable("- - - - - - - - ", 120), music.PlaybackMode.UntilDone)
+controller.moveSprite(mySprite)
